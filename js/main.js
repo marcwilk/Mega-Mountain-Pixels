@@ -109,25 +109,43 @@
         </div>
       </div>`
     $("#appendHere").append(card)
+
     let heart = document.getElementById(`${data[i].heartId}`)
     heart.addEventListener("click", function(){
-      let favoriteCard =
-      `<div class="col-md-4 col-sm-6 portfolio-item" id="${data[i].id}">
-        <a class="portfolio-link" data-toggle="modal" href="${data[i].modalId}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fas fa-plus fa-3x"></i>
+      if (!document.querySelector(`#favorite_${data[i].id}`)){
+        let favoriteCard =
+        `<div class="col-md-4 col-sm-6 portfolio-item" id="favorite_${data[i].id}">
+          <a class="portfolio-link" data-toggle="modal" href="${data[i].modalId}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
             </div>
+          <img class="img-fluid viewSize" src="${data[i].image}" alt="">
+            </a>
+          <div class="portfolio-caption">
+            <h4>${data[i].name}</h4>
+              <p class="text-muted">${data[i].location}</p>
+                <i class="fas fa-heart favorite red" id="favorite_${data[i].heartId}"></i>
           </div>
-        <img class="img-fluid viewSize" src="${data[i].image}" alt="">
-          </a>
-        <div class="portfolio-caption">
-          <h4>${data[i].name}</h4>
-            <p class="text-muted">${data[i].location}</p>
-              <i class="far fa-heart favorite" id="${data[i].heartId}"></i>
-        </div>
-      </div>`
-    $("#pics").append(favoriteCard)
+        </div>`
+      $("#pics").append(favoriteCard)
+    } else {
+      event.target.classList.toggle("red")
+      event.target.classList.toggle("far")
+      event.target.classList.toggle("fas")
+    }
+
+      let pics = document.getElementById("pics")
+      let favoriteHeart = document.getElementById(`favorite_${data[i].heartId}`)
+      favoriteHeart.addEventListener("click", function(){
+        let card = document.getElementById(`favorite_${data[i].id}`)
+        pics.removeChild(card)
+        let removeRed = document.getElementById(`${data[i].heartId}`)
+        removeRed.classList.toggle("red")
+        removeRed.classList.toggle("far")
+        removeRed.classList.toggle("fas")
+      })
     })
   }
 
@@ -174,5 +192,10 @@
   //     one.appendChild(firstPic)
   //   }
   // })
+
+  let form = document.getElementById("contactForm")
+  form.addEventListener("submit", function(){
+    event.preventDefault()
+  })
 
 })(jQuery);
