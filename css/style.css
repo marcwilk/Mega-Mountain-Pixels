@@ -67,8 +67,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #C9D5B5;
-  border-color: #C9D5B5;
+  background-color: #e2ded9;
+  border-color: #e2ded9;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -115,7 +115,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: #9F9F92;
   border: 0;
-  background-color: #C9D5B5;
+  background-color: #e2ded9;
   font-family: 'Crimson Text', serif;
 }
 
