@@ -120,12 +120,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: black;
+  color: #fff;
   font-family: 'Crimson Text', serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #C9D5B5;
+  color: #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -133,7 +133,7 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: black;
+  color: #fff;
   font-family: 'Crimson Text', serif;
 }
 
@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/maroonbells.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -468,9 +468,10 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/road-image.png");
+  background-image: url("../img/sunset.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 section#contact .section-heading {
@@ -543,5 +544,5 @@ footer span.copyright {
 
 .viewSize {
   height: 350px;
-  width: 350px;
+  width: auto;
 }

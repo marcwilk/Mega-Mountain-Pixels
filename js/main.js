@@ -110,8 +110,7 @@
       </div>`
     $("#appendHere").append(card)
 
-    let heart = document.getElementById(`${data[i].heartId}`)
-    heart.addEventListener("click", function(){
+    $(`#${data[i].heartId}`).on("click", function(){
       if (!document.querySelector(`#favorite_${data[i].id}`)){
         let favoriteCard =
         `<div class="col-md-4 col-sm-6 portfolio-item" id="favorite_${data[i].id}">
@@ -130,10 +129,12 @@
           </div>
         </div>`
       $("#pics").append(favoriteCard)
+      localStorage.setItem("data", "favoriteCard")
     } else {
       event.target.classList.toggle("red")
       event.target.classList.toggle("far")
       event.target.classList.toggle("fas")
+      localStorage.removeItem("data", "favoriteCard")
     }
 
       let pics = document.getElementById("pics")
