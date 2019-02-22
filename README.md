@@ -2,7 +2,7 @@
 <a href="http://megamountainpixels.surge.sh/"><img src="img/mmp-logo.png" target="_blank" title="MMP" alt="MMP" width="35%"></a>
 </p>
 
-# Mega Mountain Pixels : Hiking/Photography Favoriting
+# Mega Mountain Pixels - Hiking/Photography Favoriting
 
 [Deployed link](http://megamountainpixels.surge.sh/)
 
@@ -15,15 +15,15 @@
 ### Installation
 
 Step One: Clone this repo to your local machine  
-Step Two: NPM Install
+Step Two: npm install
 
 ### Style
 
 [Color Scheme](https://coolors.co/000000-ffffff-e2ded9-9f9292-c9d5b5)
 ```
 /* RGB */
-$color1: #ffffff; //font
-$color2: #e2ded9; //main background
+$color1: #ffffff; // font
+$color2: #e2ded9; // main background
 $color3: #9f9292; // card backgrounds
 ```
 
