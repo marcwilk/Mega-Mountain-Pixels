@@ -10,6 +10,7 @@
 
 - [Installation](#installation)
 - [Style](#style)
+- [Planning](#planning)
 
 ### Installation
 
@@ -18,19 +19,22 @@ Step Two: NPM Install
 
 ### Style
 
-[Color Scheme](https://coolors.co/28262c-809bce-f9f5ff-9fbbcc-7a9cc6)
+[Color Scheme](https://coolors.co/000000-ffffff-e2ded9-9f9292-c9d5b5)
 ```
 /* RGB */
-$color1: #28262c; //font
-$color2: #809bce; //main background
-$color3: f9f5ff; //story backgrounds
+$color1: #ffffff; //font
+$color2: #e2ded9; //main background
+$color3: #9f9292; // card backgrounds
 ```
 
-Fonts: Playfair Display & Roboto Condensed (example below)
+Fonts: Crimson Text (example below)
 ```
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 CSS -
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Crimson Text', serif;
 ```
+
+### Planning
+
+(https://trello.com/b/gNMbgWI6/quarter-one-project)
