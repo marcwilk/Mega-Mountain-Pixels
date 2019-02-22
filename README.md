@@ -1,5 +1,5 @@
 <p align="center">
-<a href="http://megamountainpixels.surge.sh/"><img src="img/images/mmp-logo.png" target="_blank" title="MMP" alt="MMP" width="35%"></a>
+<a href="http://megamountainpixels.surge.sh/"><img src="img/mmp-logo.png" target="_blank" title="MMP" alt="MMP" width="35%"></a>
 </p>
 
 # Mega Mountain Pixels : Hiking/Photography Favoriting
