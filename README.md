@@ -27,11 +27,9 @@ $color2: #e2ded9; //main background
 $color3: #9f9292; // card backgrounds
 ```
 
-Fonts: Crimson Text (example below)
+[Font Scheme](https://fonts.googleapis.com/css?family=Crimson+Text)
 ```
-<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-
-CSS -
+/* CSS */
 font-family: 'Crimson Text', serif;
 ```
 
