@@ -4,6 +4,9 @@
 
 # Mega Mountain Pixels - Hiking/Photography Favoriting
 
+•Full Stack Sports App for Client  
+•Fellow fans at your fingertip. A premier mobile application to find sports fans of your favorite teams, wherever you are. Fansere gives you home field advantage with a click of a button. Fansere provides you the opportunity to match with other fans of your favorite teams, pinpoint game-watching locations, and once connected with fellow fans, reach out via in-app chat to plan where to watch the game.  
+
 [Deployed link](http://megamountainpixels.surge.sh/)
 
 ## Table of Contents
@@ -39,6 +42,8 @@ font-family: 'Crimson Text', serif;
 (https://trello.com/b/gNMbgWI6/quarter-one-project)
 
 ### Technologies
+
+•Technologies used: ReactNative, ReactNative Elements, ReactNative Navigation, ReactNative Maps API, NHL API, Node, Express, PostgreSQL, Knex, Fetch, OAuth, Firebase, JavaScript
 
 <a href="https://www.javascript.com/"><img src="img/javascript-original.svg" target="_blank" title="JS" alt="JS" width="15%"></a>
 <a href="https://jquery.com/"><img src="img/jquery-original.svg" target="_blank" title="jQuery" alt="jQuery" width="15%"></a>
