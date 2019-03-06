@@ -40,8 +40,8 @@ font-family: 'Crimson Text', serif;
 
 ### Technologies
 
-<a href="https://jquery.com/"><img src="img/jquery-original.svg" target="_blank" title="jQuery" alt="jQuery" width="15%"></a>
 <a href="https://www.javascript.com/"><img src="img/javascript-original.svg" target="_blank" title="JS" alt="JS" width="15%"></a>
+<a href="https://jquery.com/"><img src="img/jquery-original.svg" target="_blank" title="jQuery" alt="jQuery" width="15%"></a>
 <a href="https://html.com/"><img src="img/html5-original.svg" target="_blank" title="HTML" alt="HTML" width="15%"></a>
 <a href="https://css-tricks.com/"><img src="img/css3-original.svg" target="_blank" title="CSS" alt="CSS" width="15%"></a>
 <a href="https://getbootstrap.com/"><img src="img/bootstrap-plain.svg" target="_blank" title="Bootstrap" alt="Bootstrap" width="15%"></a>
