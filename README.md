@@ -4,14 +4,12 @@
 
 # Mega Mountain Pixels - Hiking/Photography Favoriting
 
-- Front End Hiking/Photography Favoriting Website  
-- User-friendly photography favorites. Ease of use provided for hiking enthusiasts who are interested in Colorado's most scenic trails. Users are able to see both exact coordinates/dates of the destined photography spots along with favorite these spots to reference later in the seasons
-
 [Deployed link](http://megamountainpixels.surge.sh/)
 
 ## Table of Contents
 
 - [Installation](#installation)
+- [About](#about)
 - [Style](#style)
 - [Planning](#planning)
 - [Technologies](#technologies)
@@ -19,7 +17,12 @@
 ### Installation
 
 Step One: Clone this repo to your local machine  
-Step Two: npm install
+Step Two: npm install  
+
+### About
+
+- Front End Hiking/Photography Favoriting Website  
+- User-friendly photography favorites. Ease of use provided for hiking enthusiasts who are interested in Colorado's most scenic trails. Users are able to see both exact coordinates/dates of the destined photography spots along with favorite these spots to reference later in the seasons.  
 
 ### Style
 
