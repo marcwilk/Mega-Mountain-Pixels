@@ -11,6 +11,7 @@
 - [Installation](#installation)
 - [Style](#style)
 - [Planning](#planning)
+- [Technologies](#technologies)
 
 ### Installation
 
@@ -36,3 +37,11 @@ font-family: 'Crimson Text', serif;
 ### Planning
 
 (https://trello.com/b/gNMbgWI6/quarter-one-project)
+
+### Technologies
+
+<a href="https://jquery.com/"><img src="public/jquery-original.svg" target="_blank" title="jQuery" alt="jQuery" width="25%"></a>
+<a href="https://www.javascript.com/"><img src="public/javascript-original.svg" target="_blank" title="JS" alt="JS" width="25%"></a>
+<a href="https://html.com/"><img src="public/html5-original.svg" target="_blank" title="HTML" alt="HTML" width="25%"></a>
+<a href="https://css-tricks.com/"><img src="public/css3-original.svg" target="_blank" title="CSS" alt="CSS" width="25%"></a>
+<a href="https://getbootstrap.com/"><img src="public/boostrap-plain.svg" target="_blank" title="Bootstrap" alt="Bootstrap" width="25%"></a>
