@@ -21,8 +21,8 @@ Step Two: npm install
 
 ### About
 
-- Front End Hiking/Photography Favoriting Website  
-- User-friendly photography favorites. Ease of use provided for hiking enthusiasts who are interested in Colorado's most scenic trails. Users are able to see both exact coordinates/dates of the destined photography spots along with favorite these spots to reference later in the seasons.  
+Front End Hiking/Photography Favoriting Website  
+User-friendly photography favorites. Ease of use provided for hiking enthusiasts who are interested in Colorado's most scenic trails. Users are able to see both exact coordinates/dates of the destined photography spots along with favorite these spots to reference later in the seasons.  
 
 ### Style
 
